@@ -1,0 +1,15 @@
+{
+  "name": "segmentio-load-script-once",
+  "description": "Loads a script only once, calls back when ready multiple times",
+  "version": "0.0.2",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "component-find": "git://github.com/npmcomponent/component-find.git",
+    "segmentio-load-script": "git://github.com/npmcomponent/segmentio-load-script.git",
+    "segmentio-memoize-async": "git://github.com/npmcomponent/segmentio-memoize-async.git",
+    "component-url": "git://github.com/npmcomponent/component-url.git",
+    "visionmedia-debug": "git://github.com/npmcomponent/visionmedia-debug.git"
+  },
+  "license": "MIT"
+}

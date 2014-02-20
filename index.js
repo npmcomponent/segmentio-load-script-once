@@ -1,9 +1,9 @@
 
-var debug = require('debug')('load-script-once');
-var find = require('find');
-var load = require('load-script');
-var memoize = require('memoize-async');
-var url = require('url');
+var debug = require('visionmedia-debug')('load-script-once');
+var find = require('component-find');
+var load = require('segmentio-load-script');
+var memoize = require('segmentio-memoize-async');
+var url = require('component-url');
 
 
 /**
